@@ -2,12 +2,99 @@
     margin: 0px;
     padding: 0px;
 }
-.bg{
-    background-image: url(restaurant\ bg.jpg);
+
+.bg-image{
+    width: 100%;
+    height: 700px;
+}
+
+.header{
+    background-image: url(../img/bbq-2823707.jpg);
     background-size: cover;
-    height: 600px;
+    height: 100vh;
     /* border: 1px solid black; */
     width: 100%;
-    position: absolute;
-    
+}
+
+.background{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    margin-top: -75px;
+}
+
+.form-bg{
+    background: #08080899;
+    padding: 25px;
+    border-radius: 26px;
+}
+
+.form-bg h1{
+    color: #da7900;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.form-bg h3{
+    color: #f4faff;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input label{
+    color: #fff;
+    font-size: 16px;
+}
+
+.input input{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.input select{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+
+
+.carousel-background{    
+    padding: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item img{
+    margin: 8px;
+}
+
+@media screen and (max-width : 425px){
+    .header{
+        margin-top: -50px;
+    }
 }
